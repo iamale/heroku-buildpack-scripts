@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 BUILD_DIR=${1:-}
+chmod +x "$BUILD_DIR/.heroku_compile"
 /usr/bin/env "$BUILD_DIR/.heroku_compile" $@
